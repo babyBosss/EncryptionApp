@@ -65,7 +65,7 @@ class CryptApp(App):
                     self.way_to_textinput.text = self.wayto_var
             try:
                 self.savefile = open(self.wayto_var, 'wb')
-                self.l5.text = "Encryption succeeded, file saved. Remember to save your password"
+                self.l5.text = "Encryption succeeded, file saved. Don't forget to save your password"
             except:
                 self.l5.text = "An IOError has occurred!"
 
